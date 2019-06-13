@@ -14,3 +14,10 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+function cachePascache() {
+  cache = document.querySelector('.cache');
+  cache.classList.toggle('invis');
+}
+
+document.addEventListener('click',cachePascache);

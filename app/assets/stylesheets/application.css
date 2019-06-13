@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+.ifram {
+color: black;
+width: 200px;
+height: 150px;
+}
+.ah{
+  opacity: 0;
+}
+.cache{
+  color: black;
+}

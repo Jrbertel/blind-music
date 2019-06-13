@@ -1,0 +1,40 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+span {
+opacity: 0;
+}
+
+iframe {
+  z-index: 0;
+}
+
+.cache{
+  height:20px;
+  width: 20px;
+  background-color: black;
+  position: absolute;
+  z-index: 40 !important;
+  bottom:40px;
+  left:88px;
+
+}
+.invis {
+  opacity:0;
+}
+
+
+.grosse-div{
+  position: relative;
+}
+
+
+.cache {
+
+    height: 44px;
+    width: 159px;
+    background-color: black;
+    position: absolute;
+    z-index: 40 !important;
+
+}
